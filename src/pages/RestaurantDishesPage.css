@@ -1,0 +1,14 @@
+.background1{
+    /* background-image:radial-gradient( rgb(139, 221, 150),rgb(229, 224, 224)); */
+    background-image: url('https://images.pexels.com/photos/3876635/pexels-photo-3876635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+.filter{
+    background-image: linear-gradient(to bottom,rgb(139, 221, 150),rgb(248, 242, 242));
+    position: sticky;
+    top:88px;
+    z-index:+3;
+    width:100%;
+}
+.filter-name{
+    background-image: linear-gradient(to bottom,rgb(248, 242, 242),rgb(139, 221, 150));
+}

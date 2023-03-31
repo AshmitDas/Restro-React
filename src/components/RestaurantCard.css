@@ -1,0 +1,11 @@
+.card1{
+    width:18rem;
+    height:26rem;
+    border: 1px solid black;
+}
+.card1:hover{
+    transform: scale(104%,104%);
+}
+.button:hover{
+    background-color: rgb(115, 180, 115);
+}

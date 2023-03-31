@@ -1,0 +1,51 @@
+.background {
+    background-color: rgb(139, 221, 150);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: +3;
+}
+/* .navbar-open{
+    background-color: white;
+    height:100px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    right:35px;
+    top: 35px;
+    border-radius: 10px;
+    border:1px solid black;
+} */
+.link {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black
+}
+
+.link:hover {
+    color: white;
+    border-radius: 20px;
+}
+
+svg {
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.button-ham{
+    border:none;
+    display: none;
+}
+@media (max-width:850px) {
+    svg {
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+}

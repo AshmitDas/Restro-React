@@ -1,0 +1,10 @@
+.background-footer{
+    background-color: rgb(65, 69, 65);
+    color: white;
+}
+@media(max-width:700px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

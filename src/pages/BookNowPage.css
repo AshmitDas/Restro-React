@@ -1,0 +1,28 @@
+.form-container{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding:20px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxy8G1VrRz41M6dr58GItd1la2HhPOqgXyn3udbFEBBQ&usqp=CAU&ec=48665701');
+   background-size: cover;
+}
+form{
+    width:60%;
+}
+label{
+    font-size: 20px;
+}
+input{
+    border:1px soild black;
+    padding:8px;
+    width:100%;
+}
+.button-form{
+    width:100%;
+    background-color: rgb(115, 180, 115);
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    border: none;
+}
